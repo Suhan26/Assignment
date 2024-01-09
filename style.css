@@ -1,0 +1,274 @@
+/*start++++Universal style++++*/
+*{margin: 0px;
+  padding: 0px;}
+html{background-color: black;}  
+/*End-----Universal style-----*/
+/* start++++body+++++++ */
+body{width:1000px;
+     height: fit-content;
+     display:block;
+     margin: auto;
+    background-color: white;}
+/* End------body----- */
+/*start+++++header/bander section style++++++ */
+header{height: 400px;
+       width:100%;
+       border:1px solid red;}
+header>.baner{
+      height:93%;
+      width: 81.90%;
+      margin: auto;
+      margin-top:30px;
+      border-radius: 10px;
+     background-image:url(Photo/Banner\ Image.png),linear-gradient(#070211dc 10%, rgba(7, 2, 17, 0.118) 70%);
+      background-blend-mode: multiply;
+      background-repeat: no-repeat;
+      background-size:contain;
+      display: flex;
+       justify-content: center;
+       align-items: center;}      
+.baner-conten{
+              width: fit-content;
+              text-align: center;
+              }  
+.banerTitle{font-size: 15px;
+     font-family: 'Merriweather', serif;
+   color: white;
+     font-style: normal;
+     font-weight: 400;}
+.banerDesc{font-size:37px;
+            margin-top:10px;
+            color: rgb(255, 255, 255);
+           font-family: 'Merriweather', serif;
+           font-weight: 700;}                 
+/* End--------header/bander section style------- */
+/* Start++++++Main style+++++++ */
+main{ width: 81.90%;
+      margin: auto;
+      margin-top: 80px;
+      margin-bottom: 80px;
+     border: 2px dotted black;}
+
+/* start+++++++++65% off+++++++++++ */
+.off{width:550px;
+     margin: auto;
+     margin-bottom: 80px;
+     height: 500px;
+     border: blue dotted 2px;}
+.off_textSection{border: red solid 1px;
+                 height: 30%;
+                 text-align: center;
+                 font-family: 'Inter Tight', sans-serif;}
+.offtitle{font-size:40px;
+           font-weight: ;
+          color: #F00;
+          margin-bottom:22px;} 
+.offdesc1{ color: #F00;
+           font-weight: ;
+          font-size:14px;}                          
+.offdesc2{color:#070211;
+          margin-top: 9px;
+           font-weight: ;
+          font-size:30px;}           
+.off_imgSection{border: black solid 1px;
+                height: 70%;}
+.off_imgSection>img{width:100%;}
+/* End--------65% off-------------- */
+
+
+
+/* start+++++++++welcome to midnight party+++++++++++ */
+.welcome{height:200px;
+         margin-bottom: 80px;
+         display: flex;
+         border-radius: 12px;
+         padding: 80px;
+         background:url(Photo/Vectorrr.png),linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+         background-blend-mode: multiply;
+         background-repeat: no-repeat;
+         background-size: contain;}
+    /*********/
+.welcom-text{border: 1px solid rgb(25, 6, 6);
+            width:70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;} 
+.welcomeTitle{color: #FFF;
+  font-family: 'Merriweather', serif;
+  font-weight: ;
+  font-size:40px;
+}        
+.welcomeDesc{color: rgba(255, 255, 255, 0.80);
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: ;
+  line-height: 18px;
+  font-size:12px;}    
+.join-btn{font-family: 'Inter Tight', sans-serif;
+          font-size: ;
+          width: 100px;
+          height: 30px;
+          border: none;
+          font-weight: ;
+          color: white;
+          background:none;
+}  
+    /********/
+.welcome-img{border: blue 2px dotted;
+             width:30%;
+             text-align:right;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+.welcome-img>img{height:150%;
+                 border: 1px solid red;}
+             
+/* End--------welcome to midnight party-------------- */
+
+/*Start+++++Coming-Soon_2024++++*/
+.coming-soon_2024{border: 1px solid red;
+                  display: flex;
+                   gap:20px;
+                   align-items: center;
+                  height: 300px;
+                  justify-content: space-between;}
+.coming-soon{border: dotted red 1px;
+             width:100%;
+             height: fit-content;}
+.Comming-soon_Title1{font-size:16px ;
+  color: #F00;
+  font-family: 'Inter Tight', sans-serif;
+            }           
+.Comming-soon_Title2 {color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;}
+.Comming-desc{color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter Tight', sans-serif;
+
+}
+.centerImg{border: solid blue 1px;
+           width:100%;
+           display: flex;
+           align-items: center;
+           justify-content: center;}
+.centerImg >img{width:250px;
+                border: 10px solid red;
+                border-radius: 100%;
+                padding: 10px;}           
+.c2024{border:dashed black 1px;
+           width:100%;
+            height: fit-content;}
+
+.c2024Title{color: #F00;
+  font-family: 'Inter Tight', sans-serif;
+  font-size:30px;
+  }
+.c2024Desc{color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter Tight', sans-serif;
+}
+.c2024>img{}
+/* End----Comming-Soon_2024------ */
+
+/*Start++++Our-awesome-portfolio++++*/
+.Our-awesome-portfolio{border: 1px solid blue;
+                        margin-top: 80px;}
+.our-awesome-ImageSection{border: red dotted 2px;
+                         display: flex;
+                         flex-wrap:wrap ;
+                         gap:17px;
+                         }
+.our-awesome-TextSection>h2{color: red;
+                           font-size: 15px;} 
+.our-awesome-TextSection>h1{color: rgb(32, 24, 24);
+                           font-size: 33px;} 
+.our-awesome-TextSection>p{color: rgba(171, 162, 162, 0.832);} 
+                        
+.our-awesome-ImageSection>img{width:259px;
+} 
+.our-awesome-ImageSection>img:hover{border-radius:15px;
+                                   background-blend-mode: multiply;
+                                    box-shadow: 0px 0px 19px 4px rgba(255, 0, 0, 0.685);}                        
+/*End-----Our-awesome-portfolio---*/
+
+ /* start++++++++++subscribe +++++++++ */
+.subscribeNews{
+  border-radius: 11px;
+  background: rgba(255, 0, 0, 0.05);
+   height:400px;
+   display: flex;
+   margin-top:80px;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+     text-align: center;}
+.email>img{width: 90px;}     
+.EmailDesc>h1{font-size:30px;
+              margin-bottom:15px;}
+.Sub>form{
+          border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;}     
+.Sub>form>input{border: none;
+  padding-left: 30px;
+  height: 40px;
+  width: 230px;
+  border-radius: 20px 0px 0px 20px;}
+.Sub>form>input::placeholder{margin-left:80px;}  
+.Sub>form>button{border: none;
+  height: 40px;
+  width: 130px;
+  background-color: red;
+  color: white;
+  border-radius: 0px 20px 20px 0px;}
+/* End --------Suscribe------------  */
+/* End--------Main style--------- */
+/* start+++++++Footer style+++++++++++ */
+footer{background: #070211;
+       padding:10%;
+       color: white;
+       display: flex;
+       flex-direction:column;
+       gap: 26px;}
+.communication-section1{border: red solid 2px;
+                        display: flex;
+                         height:90px;
+                        justify-content: space-between;}
+.communication-section1>.section1{border: 1px white solid;
+                                  width:270px;
+                                  display: flex;
+                                  line-height: 26px;
+                                  align-items: center;}
+.communication-section1>.section2{width: 210px;
+   border: 1px solid white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   }
+.communication-section1>.section2>p:first-child{display: flex;
+                                                justify-content: flex-start;
+                                                align-items: center;}   
+.communication-section1>.section2>p:last-child{display: flex;
+                                                justify-content: flex-start;
+                                                align-items: center;}   
+.communication-section2{border-top:3px solid gray;
+border-bottom: 3px solid gray;}
+.communication-section2>.sosial{border: red 2px solid;
+ width: fit-content;
+ height: 100px;
+ margin: auto;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+  gap: 25px;}
+.All_Right-Subscribe{border: 1px solid red;
+                    display: flex;
+                    justify-content: space-between;}
+
+
+/* End--------Footer style-------------- */
+
+
+
+
+
